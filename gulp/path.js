@@ -34,7 +34,7 @@ module.exports = {
         "distSass": "./src/sass/sprite"
     },
     "fonts": {
-        "src": "./src/fonts/**/*.+(ttf|woff)",
+        "src": "./src/fonts/**/*.+(ttf|woff|otf|woff2)",
         "dist": "./dist/fonts"
     },
     "baseDir": "./dist",
