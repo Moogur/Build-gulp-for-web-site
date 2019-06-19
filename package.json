@@ -1,0 +1,43 @@
+{
+    "name": "gulp-for-git",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "dev": "gulp",
+        "prod": "gulp del --prod"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "autoprefixer": "^9.6.0",
+        "babel-loader": "^8.0.6",
+        "browser-sync": "^2.26.7",
+        "css-mqpacker": "^7.0.0",
+        "cssnano": "^4.1.10",
+        "del": "^3.0.0",
+        "gulp": "^4.0.2",
+        "gulp-changed": "^4.0.0",
+        "gulp-gh-pages": "^0.5.4",
+        "gulp-if": "^2.0.2",
+        "gulp-image": "^5.1.0",
+        "gulp-postcss": "^8.0.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-pugbem": "^2.2.4",
+        "gulp-sass": "^4.0.2",
+        "gulp-selectors": "^0.1.10",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-ttf2woff": "^1.1.1",
+        "gulp.spritesmith": "^6.10.1",
+        "merge-stream": "^1.0.1",
+        "mozjpeg": "^6.0.1",
+        "node-sass": "^4.12.0",
+        "pngquant": "^2.0.1",
+        "postcss-uncss": "^0.16.1",
+        "uncss": "^0.16.2",
+        "webpack-stream": "^5.2.1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
